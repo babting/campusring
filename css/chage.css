@@ -1,0 +1,134 @@
+.slideshow-container .img1 {border-radius: 20px; width: auto;height: 36vh;background: #F0A378;}
+
+.slideshow-container .img2 {border-radius: 20px;width: auto;height: 36vh;background: #B8AAEA;}
+
+/* Slideshow container */
+.slideshow-container { max-width: 100%;position: relative;margin: 0 auto;}
+
+/* Hide the images by default */
+.mySlides {display: none;}
+
+.circle {
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  border-radius: 75px;
+  margin-right: 30px;
+  text-align: center;
+  line-height: 30px;
+
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 70%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {right: 0;border-radius: 3px 0 0 3px;}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {}
+
+.main1 {position: absolute; bottom: 3px;width: 20%;left: 25%;}
+.main2 {position: absolute;top: 0px;width: 14%;left: 65%;}
+
+.main_categories {margin-top: 20px;margin-bottom: 0px;}
+.details_categories {padding: 25px;font-size: 27px;background-color: #F5F5F5;}
+
+
+/* Caption text */
+.mtest {color: #fff;font-size: 2rem;position: absolute;top: 22%;width: auto;left: 10%;text-align: center;}
+.text {color: #fff;font-weight: bold;font-size: 2.5rem;position: absolute;bottom: 24%;width: auto;left: 10%;line-height: 140%;}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {background-color: #FF66A7}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.popular {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin: 30px 0 20px auto;
+  padding: 0 0 20px 0;
+}
+
+.popular label {margin-right: 10px;}
+
+.main_icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.main_icons a {display: flex;flex-direction: column;justify-items: center;align-items: center;margin: 0 auto;padding-bottom: 35px;}
+.main_icons a img {margin-bottom: 10px;}
+.main_icon_align {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+.main_icon_align img {margin-bottom: 10px;}
+
+.text_align {text-align: center;font-size: 1.2rem;font-weight: bold;width: auto;}
+
+.main_icon_align img {width: 55%;padding-bottom: 10px;}
+.main_categories label {float: right;}
+.main_categories::after {clear: both;}
+
+/**/
+/*아이폰 6/7/8 */
+@media screen and (max-width: 375px){
+  .slideshow-container .img1 {height: 29vh;} 
+  .slideshow-container .img2 {height: 29vh;}
+  .mtest {font-size: 1.2rem;}
+  .text {font-size: 1.3rem;}
+  .main_icon_align img {width: 50%;}
+  .popular {font-size: 1.2rem; padding-left: 13px;}
+  .text_align {font-size: 13px;}
+  .details_categories {font-size:18px;}
+  .main_categories {margin-top: 20px;margin-bottom: 50px;}
+}

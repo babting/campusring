@@ -1,0 +1,49 @@
+.mypage_profile {display: flex; align-items: center; font-size: 20px; line-height: 180%; padding: 20px;}
+.mypage_profile p:first-child {font-weight: bold; font-size: 25px;}
+.mypage_profile_img{ width: 90px; height: 90px; border-radius: 90px; overflow: hidden; line-height: 120%; margin-right: 30px; }
+.mypage_profile_img img { width: 100%; height: 100%; object-fit: cover;}
+.container{ }
+
+/* .mypage_submenu {margin: 30px 30px 30px 30px; padding: 40px; border-radius:30px; font-size: 20px; background-color: #FBCFD0; }
+.mypage_submenu ul {display: flex; flex-direction: row; align-items: center; justify-content: space-between; flex-wrap: wrap; }
+.mypage_submenu ul li {display: flex; flex-direction: column; align-items: center; font-weight: bold;}
+.mypage_submenu ul li span {margin-top: 20px; font-weight: normal;} */
+
+
+.mypage_submenu { width: 92%; margin: 0 auto; text-align: center; vertical-align: middle; line-height: 200%; background-color: #FBCFD0; border-radius: 20px}
+
+
+/*서브 메뉴 테이블*/
+.mypage_submenu thead {text-align: center; font-size:20px; font-weight: bold;}
+.mypage_submenu tbody {font-size: 17px;}
+.mypage_submenu thead th {padding: 20px 20px 5px 20px;border-right: 1px solid #ff65a7;}
+.mypage_submenu tbody td {padding: 5px 20px 20px 20px ;border-right: 1px solid #ff65a7;}
+.mypage_submenu thead th:last-child, .mypage_submenu tbody td:last-child{border-right: none;}
+
+.table_bwn_interval {padding: 20px 0;}
+
+/*메인메뉴 테이블*/
+.mypage_menu {box-sizing: border-box; width: 92%; margin: 0 auto; text-align:center; vertical-align: middle; line-height: 200%;border-style: hidden;border-radius: 20px;border-collapse: collapse;background-color:none;box-shadow: 0 0 0 1px #d9d9d9;}
+.mypage_menu td {border: 1px solid #d9d9d9; padding: 30px 20px; text-align: center;}
+.mypage_menu i{display: flex; justify-content: center; padding: 0 0 8px 0;}
+
+/*하단*/
+/* .page_lower {display: flex; flex-direction: row; justify-content: space-between; margin: 40px 20px; } */
+
+
+/*아이폰 6/7/8 */
+@media screen and (max-width: 375px){
+    .mypage_submenu thead {font-size:13.5px; font-weight: bold;}
+    .mypage_submenu tbody {font-size: 13px;}
+    .mypage_menu td {padding: 17px; font-size: 14px; text-align: center;}
+    .mypage_submenu thead th {padding: 18px 20px 2px 18px;border-right: 1px solid #ff65a7;}
+    .mypage_profile p:first-child {font-weight: bold; font-size: 20px;}
+    .mypage_profile p {font-size: 14px;}
+}
+/*아이폰 미니 */
+@media screen and (max-width: 320px){
+    .mypage_submenu thead {font-size:10.67px; font-weight: bold;}
+    .mypage_submenu tbody {font-size: 10px;}
+    .mypage_menu td {padding: 11px; font-size: 14px; text-align: center;}
+    .mypage_submenu thead th {padding: 20px 20px 5px 20px;border-right: 1px solid #ff65a7;}
+}

@@ -1,0 +1,31 @@
+.past_top {
+    width: auto;
+    border: solid 1px;
+    border-color: #D9D9D9;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.past_top ul {
+    display: flex;
+    flex-direction:row;
+}
+.past_top ul li  { line-height: 120%; margin: 0 auto;width: auto;}
+.past_top ul li a:hover {color: pink;}
+
+.past_now {
+    padding: 15px 10px;
+    font-weight: bold;
+    border-bottom: solid 1px;
+    border-color: #D9D9D9;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+
+}
+.past_now img {
+    width:3.5%;
+    padding-right: 5px;
+}

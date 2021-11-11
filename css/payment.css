@@ -1,0 +1,30 @@
+.container_bg {background: #f2f2f2; }
+
+.payment_infomation {padding-top: 30px;}
+.payment_icon {padding: 10px 10px 10px 10px; font-size: 20px; font-weight: bold;}
+.payment_person {display: flex; align-items: center; justify-content: space-between;padding: 10px 10px 20px 10px; font-size: 20px; font-weight: bold; margin-top: 30px;}
+.payment_info {padding: 0px 10px 20px 10px; font-size: 20px;}
+.payment_info p {font-size: 17px; padding: 15px 0; color: #b5b5b5; font-weight: bold;}
+.payment_icon, .payment_info {background: #fff;}
+
+/*멘토멘티 정보*/
+.mentor_person, .mentee_person {margin: 20px 0; padding: 20px 0; background: #fff;}
+.mentor_person span, .mentee_person span {font-size: 20px;padding: 10px 10px 0px 10px;font-weight: bold;}
+.mentor_person_info,.mentee_person_info {font-size: 20px;padding: 10px 10px 0px 10px; display: flex;}
+.mentor_person_info div:first-child, .mentee_person_info div:first-child {padding-right: 13px;}
+.choose_payment_quoin input[type="radio"] {font-size: 50px; width: 20px; height: 20px; margin: 0 10px 0 20px;}
+
+/*결제 수단 선택*/
+.choose_payment {background: #fff;padding: 20px 0;}
+.choose_payment_quoin {border: 1px solid #000; border-radius: 13px; margin: 10px 10px 45px 10px;}
+.choose_payment_header {background: #f4f4f4;border-radius: 13px 13px 0 0;}
+.choose_payment_sort {display: flex; justify-content: space-between; padding: 20px 20px 10px 20px; }
+.choose_payment_header p {padding: 0 10px 20px 20px;}
+.choose_payment_title {font-size: 20px; font-weight: bold; padding-bottom: 10px;}
+.choose_payment img {width: 7%;}
+.naverpay, .kakaopay, .cardpay, .accountpay, .chocoringpay {display: flex; flex-direction: row; align-items: center; padding: 5px 0; font-size: 20px;}
+.payment_sort img, .payment_sort i {margin-right: 10px;}
+.payment_sort {padding: 15px 0;}
+
+/*결제버튼*/
+.choose_payment button[type="submit"] {border-radius: 5px; display: block; margin: 0 auto; border: 1px solid #d9d9d9; padding: 10px; font-size: 1.5rem; width: 95%; color: #000; background: #f4f4f4;}

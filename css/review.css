@@ -1,0 +1,65 @@
+/* 퍼센트 게이지*/
+.review_topstar {color: orange;}
+.review_star_sort {display: flex; align-items: center;justify-content: space-between; padding: 50px 10px 20px 10px;font-size: 20px;font-weight: bold;}
+
+.review_rod {display: flex;align-items: center;padding: 1px;}
+
+.review_rod span {width: 6%;}
+
+/* IE is dumb */
+.graph {position: relative;width: 100%;background-color: gainsboro;padding: 2px;font-size: 11px;font-family: tahoma;margin-bottom: 3px;margin-right: 10px;}
+
+
+.graph .bar {display: block;position: relative;background: orange;text-align: center;color: #333;height: 2em;line-height: 2em;}
+.drop_btn {margin-top: 10px;}
+.review_sort {width: auto;border: solid 1px;border-color: #D9D9D9;border-left: none;border-right: none;margin: 10px 0 20px 0;padding: 12px;}
+.review_sort ul {display: flex;flex-direction: row;}
+.review_sort ul li {line-height: 120%;padding: 10px 15px 10px 10px;}
+
+/* best/update */
+
+.review_sort ul li :hover { color: pink;}
+
+/* icon */
+.user1 {
+    /*background: red;*/
+    border-radius: 50%;
+    margin: 0 1rem;
+    width: 120px;
+    height: 120px;}
+.user1 img{ width: 100%;height: 100%; object-fit: cover; border-radius: 50%;}
+
+.review_page {display: flex; align-items: center;margin-bottom: 30px;}
+
+.review_name{font-size: 1.65em;font-weight: bold;}
+.review_star_count{color: orange; font-size: 1.5rem; padding: 9px 0;}
+.review_date{color: black;}
+.review_group{display: flex; flex-direction: column; margin-left: 20px; width: 75%;}
+
+.star {display: inline-block;color: #D2D6DA;padding: 10px 10px;transition: all 0.5s;}
+.clicked {color:#FF65A7;}
+
+/* review_ing */
+.rating{text-align: center; margin-top: 15px; font-size: 50px;}
+.mini.rating { font-size: 20px;}
+.mini.star { padding: 0;}
+
+.review_ing_title{text-align: center; margin-top: 20px; font-weight: bold; font-size: 20px;}
+.review_contents{text-align: center; margin-top: 50px}
+textarea::placeholder{color: gray; font-size: 20px;}
+.review_btn_save  {display: block; margin:  20px auto; border-radius: 40px; font-size: 20px;padding: 15px 30px; border: 2px solid #FFD0E4; width: auto; }
+.review_context{font-size: 25px;}
+
+.no_review{text-align:center;}
+
+@media screen and (max-width: 375px){
+    .user1 {margin: 0 8px;width: 65px;height: 65px;}
+    .review_name {font-size: 1rem;}
+    .review_star_count {font-size: 1rem;}
+    .review_context {font-size: 16px;}
+    .review_page {padding: 10px;}
+    .rating {font-size: 34px;}
+    .review_contents textarea {width: 94%}
+}
+
+

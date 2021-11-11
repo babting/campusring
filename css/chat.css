@@ -1,0 +1,150 @@
+.hd_box .chat_dot {
+    float: right;
+    width: 50px;
+    margin-top: 10px;
+}
+.hd_box .chat_dot ::after{clear: both;}
+.hd_box .chat_time {text-align: center;}
+
+.chat_screen {
+
+    z-index: 9;
+
+    position: relative;
+    width:100%;
+    height:100%;
+}
+
+
+.chat_box{width: 100%;height: 80%; display: flex;
+    flex-direction: column;
+// margin-right: 5px;
+}
+.chat_box:after{clear: both;content:"";display: block;}
+
+.chat_msg_sort{display: flex; justify-content:flex-start; width:100%;text-align:left;}
+.chat_sort{float: right; text-align:right; margin-right: 18px;
+
+    justify-content: flex-end;
+
+
+    align-items: flex-end;
+    display: flex;
+}
+
+
+.chat_date {
+    text-align: center;
+    color: gray;
+    margin-top: 10px;
+}
+
+.chat_profile {background-color: #D9D9D9;width: 80px;height: 80px;border-radius: 80px;overflow: hidden;margin-top: 35px;margin-left: 15px;}
+.chat_profile i{width: 100%; height: 100%; object-fit: cover;}
+.chat_size {width: 30%; margin-left: 20px;margin-top: 0px;}
+.chat_main_left {width: auto;height: auto;background: white;line-height: 140%;padding: 10px;text-align: left;border-radius: 10px;border: solid;border-color: black;font-weight: bold;}
+.chat_main_right p,.chat_main_right p {width: auto;}
+.chat_main_right {width: auto;height: auto;background: white;border-width: thin;border: solid; border-color: black;line-height: 140%;margin-right: 20px;margin-top: 17px;padding: 10px;text-align: left;border-radius: 10px;font-weight: bold;}
+.chat_sort {display: flex;justify-content:flex-end;}
+.chat_msg_sort {display: flex;align-items: flex-end;}
+.chat_screen .chat_mento {width: 90px;height: 90px;border-radius: 90px;overflow: hidden;}
+.chat_sort::after {clear: both;}
+.chat_screen .chat_mento img,.chat_profile img {width: 100%; height: 100%; object-fit: cover;}
+
+.chat_list_no {text-align: center;font-size: 1.5rem; font-weight: bold; position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);}
+
+.flex-header {
+    display:flex;
+    justify-content: space-between;
+    width:750px;
+    height: 70px;
+    position: fixed;
+    vertical-align: middle;
+    line-height: normal;
+    background: #ffffff;
+
+}
+/**/
+.bottom-input-form {
+    border-top-color: aliceblue; border: solid 3px ;border-color: #D9D9D9; border-left: none; border-right: none; position:fixed; left:0px; right:0px; bottom: 0px; background: white;
+    width: 100%;
+    max-width: 750px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#btn {
+    /*width: 7%;
+    height: 28px;
+    margin: 10px;
+    margin-bottom: 15px; */
+    border-radius: 7px;
+}
+    /*background: data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA1MTIuMDA1IDUxMi4wMDUiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNTEyLjAwNSA1MTIuMDA1IiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnPjxwYXRoIGQ9Im01MTEuNjU4IDUxLjY3NWMyLjQ5Ni0xMS42MTktOC44OTUtMjEuNDE2LTIwLjAwNy0xNy4xNzZsLTQ4MiAxODRjLTUuODAxIDIuMjE1LTkuNjM4IDcuNzc1LTkuNjUgMTMuOTg0LS4wMTIgNi4yMSAzLjgwMyAxMS43ODUgOS41OTYgMTQuMDIybDEzNS40MDMgNTIuMjk1djE2NC43MTNjMCA2Ljk0OCA0Ljc3MSAxMi45ODYgMTEuNTMxIDE0LjU5MyA2LjcxNSAxLjU5NyAxMy43MTctMS41OTggMTYuODY1LTcuODQzbDU2LjAwMS0xMTEuMTI4IDEzNi42NjQgMTAxLjQyM2M4LjMxMyA2LjE3IDIwLjI2MiAyLjI0NiAyMy4yODctNy42NjkgMTI3LjU5OS00MTguMzU3IDEyMi4wODMtNDAwLjE2MyAxMjIuMzEtNDAxLjIxNHptLTExOC45ODEgNTIuNzE4LTIzNC44MDMgMTY3LjIxOS0xMDEuMDI4LTM5LjAxOHptLTIxNy42NzcgMTkxLjg1MiAyMDQuNjY4LTE0NS43NTdjLTE3Ni4xMTQgMTg1Ljc5LTE2Ni45MTYgMTc2LjAxMS0xNjcuNjg0IDE3Ny4wNDUtMS4xNDEgMS41MzUgMS45ODUtNC40NDgtMzYuOTg0IDcyLjg4MnptMTkxLjg1OCAxMjcuNTQ2LTEyMC4yOTYtODkuMjc2IDIxNy41MTEtMjI5LjQ2MnoiLz48L2c+PC9zdmc+; }*/
+
+#msg {border-radius: 7px;   padding:6px;width: 80%; height: 22px; margin-bottom: 10px; margin-left: 9px; margin-right: 4px;}
+
+#margintop { margin-top: 4%; }
+
+#btn {
+
+    width: 20%;
+    height: 45px;
+    margin:0;
+    font-size: 1.3rem
+}
+
+#msg {
+    width: 70%;
+}
+
+
+/* 모바일 */
+/*@media screen and (min-width: 320px) and (max-width: 767px){ */
+@media screen and (max-width: 550px) {
+    .container2 {
+        width: 100%;
+        max-width: none;
+    }
+
+    .flex-header {
+        width: 100%;
+    }
+
+    .bottom-input-form {
+        width: 100%;
+        max-width: none;
+    }
+
+
+    .fa-3x {
+        font-size: 4em;
+        margin-left: 12px;
+    }
+
+    #margintop {
+        margin-top: 2%;
+    }
+
+    /* 태블릿 */
+    /*
+    @media screen and (min-width: 376px) and (max-width:750px){
+        .container2 {
+            width: 100%;
+            max-width: none;
+        }
+        .flex-header {
+            width:100%;
+        }
+        .bottom-input-form {
+            width:100%;
+            max-width: none;
+        }
+    }
+    */
+    .chat_mento img {
+        margin-right: 5px;
+    }
+
+
+}

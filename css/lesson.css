@@ -1,0 +1,413 @@
+/*lesson_list css*/
+.lesson_list_bd {position: relative; width: 90%; margin: 0 auto ; border-radius: 20px; border: 0.3px solid rgb(199, 199, 199); display: flex;box-shadow: 4px 3px 10px 2px #cecece;}
+.lesli_img img, .les_cont{padding: 1rem;}
+.lesli_img img {width: 240px;height: 240px;object-fit: cover; margin:auto 0;}
+.lesli_img,.les_cont {width: 39%;}
+.les_cont p:first-child { padding: 0 0 10px 0; font-size: 1.5rem; font-weight: bold;}
+/*.lesson_list_red_bear{width: 50px; height: 50px;}*/
+.y_bear {position: absolute; right: 14%;}
+.y_bear img {width: 50px;}
+.les_cont p, .les_list_tag {padding: 10px 0;}
+.les_cont { margin: auto 0;  font-size: 1.2rem; width:60%;}
+/*width: auto;*/
+.les_list_btn {margin: 20px 0; }
+.les_list_btn a{transition: all 0.5ms; font-weight: bold; margin: 1rem 0 0 0; background: #AAAAAA; border: none; color: #fff; padding: 0.7rem 1rem; border-radius: 20px; font-size: 1rem;}
+.les_cont a:hover {background: #ff65a7;}
+.mtb10 {margin: 2rem 0;}
+.mtb-3 {margin: 7rem 0;}
+
+.ellipsis {text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;width:340px;overflow:hidden;}
+
+/*lesson_lnfo css*/
+.les_info_hd {border: 1px solid #ff65a7; border-radius: 25px; position: relative; padding: 2rem 1rem; margin-top: 20px;}
+.les_in_sort {display: flex; align-items: center; }
+.les_hd_m {padding: 1rem;}
+.les_hd_m p {font-size: 1.5rem; padding: 0 0 1.2rem 0;}
+.les_hd_title {font-weight: bold; font-size: 1rem; }
+
+.pay_select {display: flex; align-items: center;}
+
+.i_color {color: #ff65a7;}
+
+/*이미지*/
+.les_img_fill {border-radius: 10px;}
+.les_img_fill img{ width: 240px;height: 240px;object-fit: cover;}
+/*----*/
+.star_sort {display: flex;}
+.star_sort p {padding: 0.2rem;}
+/*
+.les_it_cont_sort {padding: 0 1rem;}
+*/
+
+.les_it_cont p:first-child, .les_video_title p, .les_cl_content p:first-child {color: #232323; font-size: 1.6rem; font-weight: bold; padding: 17px 0;}
+.les_it_cont {margin: 2rem 0;}
+
+.ic_cont_in,.ic_cont_img {display: flex; align-items: center; }
+.ic_cont_in, .les_b_ca, .ic_cont_img {font-size: 1.4rem; margin-left: 5px; color: rgb(41, 41, 41);}
+.ic_cont_in p, .ic_cont_img p {padding-left: 10px;}
+.ic_cont_img img, .ic_cont_in img {width: 4.5%; margin: 0.5rem 0;}
+
+.les_video_title video {width: 100%;}
+
+.les_chat_icon {position: absolute; bottom: 5%; right: 2%; background: #fff; padding: 0.5rem; border-radius: 50%;}
+.les_class_btn {position: fixed;z-index: 1;bottom: 0;width: 100%;background-color: #ff65a7;color: #fff;padding: 20px;box-sizing: border-box;font-size: 1.5rem;font-weight: bold;text-align: center;}
+
+/*lesson_up*/
+.container {}
+.lesup_sort {margin: 1rem;}
+.leup_ele_content,.leup_date_content,.leup_pay_content , .leup_img_content{font-size: 1.1rem; }
+.leup_ele_content label,.leup_pay_content ,.leup_date_content label,.leup_pay_content label , .leup_img_content p, .leup_ele_content p { !important; display: block; font-size: 1.3rem; font-weight: bold; padding: 24px 0 15px 0;}
+.leup_ele_content input[type="text"],.leup_ele_content select, .leup_ele_content textarea { padding: 10px 0px; width: 99%; border-radius: 5px; border: 1px solid #777; font-size: 1.1rem;}
+.leup_ele_content table {margin: 0 auto;}
+.leup_ele_content table td {padding: 0.5rem 2rem;}
+.leup_ele_content input[type="checkbox"] {margin: 0 0.5rem;}
+.video_content {font-size: 1.1rem; margin: 5px 0;}
+
+.leup_pay_content select {padding: 10px 0px; width: 20%; border-radius: 5px; border: 1px solid #777; font-size: 1.1rem;}
+.leup_pay_content input[type="text"] {width: 78%; padding: 10px 0px; border-radius: 5px; border: 1px solid #777; font-size: 1.1rem;}
+.lesup_img_area {padding: 25px 0;}
+.lesup_img_area img {width: 25%;}
+.les_simg_labtn {display: flex; justify-content: center; padding-top: 13px;}
+.lesup_img_area {text-align: center;display: flex;flex-direction: column;justify-content: center;}
+
+label.input-file-button {padding: 1rem 1.5rem;width: auto;font-size: 1.3rem;border-radius: 6px;background: #949494;color: #fff;cursor: pointer;}
+
+/* 체크박스 색상변경*/
+.leup_ele_content input[type="checkbox"] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    background: #fff;
+    height: 16px;
+    width: 16px;
+    border: 1px solid #000;
+}
+
+.leup_ele_content input[type="checkbox"]:checked {
+    background: #ff65a7;
+}
+
+.leup_ele_content input[type="checkbox"]:hover {
+    filter: brightness(90%);
+}
+
+.leup_ele_content input[type="checkbox"]:disabled {
+    background: #e6e6e6;
+    opacity: 0.6;
+    pointer-events: none;
+}
+
+.leup_ele_content input[type="checkbox"]:after {
+    content: '';
+    position: relative;
+    left: 40%;
+    top: 20%;
+    width: 15%;
+    height: 40%;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    display: none;
+}
+
+.leup_ele_content input[type="checkbox"]:checked:after {
+    display: block;
+}
+
+.leup_ele_content input[type="checkbox"]:disabled:after {
+    border-color: #7b7b7b;
+}
+
+
+/* my_lesson.css */
+.my_lesson { padding: 1rem; }
+.my_lesson_bd{position: relative; width: 90%; margin: 0 auto ; border-radius: 20px; border: 1px solid rgb(199, 199, 199); display: flex;box-shadow: 4px 3px 10px 2px #cecece;}
+.my_lesson_img img, .my_leson_cont{padding: 1rem;}
+.my_lesson img {width: 240px;height: 240px;object-fit: cover;}
+.my_lesson,.my_leson_cont {width: 39%; }
+.my_leson_cont p:first-child { padding: 0 0 10px 0; font-size: 1.5rem; font-weight: bold;}
+
+.my_leson_cont p, .my_lesson_tag {padding: 10px 0;}
+.my_leson_cont { margin: auto 0; width: auto; font-size: 1.2rem; width: 60%;}
+.my_lesson_btn {margin: 20px 0; }
+.my_lesson_btn a{transition: all 0.5ms; font-weight: bold; margin: 1rem 0 0 0; background: #AAAAAA; border: none; color: #fff; padding: 0.7rem 1rem; border-radius: 20px; font-size: 1rem;}
+.my_leson_cont a:hover {background: #ff65a7;}
+.my_lesson_mtb10 {margin: 2rem 0;}
+.mtb-3 {margin: 7rem 0;}
+
+.my_lesson_ellipsis {text-overflow:ellipsis;white-space:nowrap;word-wrap:normal;width:340px;overflow:hidden;}
+
+#leinfo_mentobtn a {
+    transition: all 0.5ms;
+    font-weight: bold;
+    margin: 1rem 0 0 0;
+    background: #ff66a7;
+    border: none;
+    color: #fff;
+    padding: 1rem 1rem;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 10%;
+    right: 3%;
+}
+
+/*아이폰 6/7/8 */
+@media screen and (max-width: 380px) {
+
+
+
+    .red_bear {
+        margin-right: 1.2rem;
+    }
+
+    .list_mentor {
+        font-size: 10px;
+    }
+
+    .ellipsis {
+        font-size: 10px;
+    }
+
+    .les_list_tag {
+        font-size: 10px;
+    }
+
+    .les_hd_m p {
+        font-size: 1.0rem;
+        padding: 0 0 1.2rem 0;
+    }
+
+    .les_list_btn {
+        padding: 5px;
+    }
+
+    /*하단 코드 update211021 khj*/
+    .my_leson_cont p:first-child {
+        padding: 0 0 5px 0;
+        font-size: 1.03rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .les_cont p:first-child {
+        padding: 0 0 10px 0;
+        font-size: 1.0rem;
+        font-weight: bold;
+    }
+
+    .les_cont p:first-child {
+        padding: 0 0 5px 0;
+        font-size: 1.03rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .my_leson_cont p, .my_lesson_tag {
+        padding: 2px 0;
+        font-size: 0.9rem;
+    }
+
+    .les_cont p, .les_list_tag {
+        padding: 2px 0;
+        font-size: 0.9rem;
+    }
+
+
+    .les_cont {
+
+width: 55%;
+        magin-top: 5px;
+        margin-bottom: 2px;
+        padding-left: 0.7rem;
+        padding-right: 0.6rem;
+padding-top:0.3rem;
+        padding-bottom: 0.3rem;
+
+    }
+
+    .my_leson_cont {
+        width: 180px;
+
+        magin-top: 5px;
+        margin-bottom: 2px;
+
+    }
+
+
+    /*중간글자 콘텐츠*/
+    .my_lesson_ellipsis {
+        width: 180px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+
+        white-space: normal;
+        word-wrap: normal;
+
+    }
+
+    .ellipsis {
+
+        /*word-wrap: n;*/
+        width: 190px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+
+        white-space: normal;
+        word-wrap: normal;
+    }
+
+    /* IE*/
+    .ellipsis {
+        width: calc(190px - 1em);
+        overflow: hidden;
+        position: relative;
+        line-height: 1.2em;
+        max-height: 2.4em;
+        margin-right: -1em;
+        padding-right: 1em;
+
+
+        white-space: normal;
+        word-wrap: normal;
+    }
+
+    /*브라우저가 IE 일때만 아래 코드를 적용할 수 있는 자바스크립트 필요한데 일단 ,,,,넘어가요*/
+    /*.ellipsis:before {*/
+    /*    content: '...';*/
+    /*    position: absolute;*/
+    /*    right: 0;*/
+    /*    bottom: 0;*/
+    /*}*/
+    .ellipsis:after {
+        content: '';
+        position: absolute;
+        right: 0;
+        width: 1em;
+        height: 1em;
+        margin-top: 0.2em;
+        background: white;
+    }
+
+    /*테두리*/
+    .my_lesson_mtb10 {
+        margin: 1rem 0;
+        height: 150px;
+
+
+    }
+
+    .lesson_list_bd {
+        height: 150px;
+    }
+
+    .my_lesson {
+        padding: 0;
+    }
+
+    .my_lesson_bd {
+        height: 150px;
+    }
+
+    /*.lesli_img img {*/
+    /*    width: 130px;*/
+    /*    height: 120px;*/
+    /*}*/
+    .lesson_list_bd {
+        height: 150px;
+    }
+
+    /*이미지*/
+    .lesli_img img {
+        width: 120px;
+        height: 128px;
+        object-fit: cover;
+        padding-right: 0px;
+    }
+
+    .les_img_fill img {
+        width: 110px;
+        height: 110px;
+        object-fit: cover;
+    }
+
+    .my_lesson img {
+        width: 125px;
+        height: 128px;
+        object-fit: cover;
+        padding-right: 0px;
+        padding: 0.7rem;
+    }
+
+    .lesli_img img, .les_cont {
+
+        padding-top: 0.7rem;
+        padding-left: 0.7rem;
+        padding-bottom: 0.7rem;
+
+
+    }
+
+
+    /*버튼*/
+    .my_lesson_btn {
+
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .my_lesson_btn a {
+        padding: 0.25rem 0.6rem;
+        border-radius: 10px;
+
+    }
+
+
+    .les_list_btn {
+        margin: 5px 0;
+        text-align: center;
+        padding-top: 2.5px;
+
+    }
+
+    .les_list_btn a {
+        padding: 0.29rem 0.29rem;
+        border-radius: 10px;
+        font-size: 0.9rem;
+    }
+
+    .les_img img, .now_class_now {
+        padding: 0;
+    }
+
+
+    #leinfo_mentobtn a {
+        transition: all 0.5ms;
+        font-weight: bold;
+        margin: 1rem 0 0 0;
+        background: #ff66a7;
+        border: none;
+        color: #fff;
+        padding: 0.6rem 0.6rem;
+        border-radius: 13px;
+        font-size: 1rem;
+        position: absolute;
+        bottom: 8%;
+        right: 3%;
+
+    }
+}
+
+
+
+

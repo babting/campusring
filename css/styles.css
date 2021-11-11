@@ -1,0 +1,52 @@
+@import "/css/reset.css";
+@import "/css/components/nav-bar.css";
+@import "/css/components/badge.css";
+@import "/css/components/alt-screen-header.css";
+@import "/css/chage.css";
+@import "/css/signup.css";
+@import "/css/menu.css";
+@import "/css/find.css";
+@import "/css/components/footer.css";
+@import "/css/find_id.css";
+@import "/css/find_pw.css";
+@import "/css/estimate.css";
+@import "/css/buy_ring.css";
+@import "/css/buy_history.css";
+@import "/css/buy_use.css";
+@import "/css/chat.css";
+@import "/css/review.css";
+@import "/css/mypage.css";
+@import "/css/payment.css";
+@import "/css/profile_change.css";
+@import "/css/review_my.css";
+@import "/css/review_myclass.css";
+@import "/css/qna.css";
+@import "/css/chat_list.css";
+@import "/css/mentorpf.css";
+@import "/css/lesson.css";
+@import "/css/lesson_now.css";
+@import "/css/lesson_past.css";
+@import "/css/map.css";
+@import "/css/presentshop.css";
+@import "/css/matching.css";
+
+/* .main-screen{
+    padding:0px var(--horizontal-space);
+} */
+.container {
+    /* width: 750px;
+    margin: 0 auto; */
+    width:100%;max-width:750px;margin: 0 auto;
+}
+a:link {/*!important;*/ text-decoration: none; color: #000;}
+a:visited {text-decoration: none; color: #000;}
+a:active {text-decoration: none; color: #000;}
+a:hover {text-decoration: none; color: #000;}
+a { color: #000;}
+
+/*top:50%;left:50%;transform:translate(-50%,-50%)*/
+
+.btn_prev, .em_btn_prev, .menu_btn_prev {cursor: pointer;}
+
+.mt10 {!important; margin-top: 10px}
+

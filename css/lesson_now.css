@@ -1,0 +1,94 @@
+.lesson_top {
+    width: auto;
+    border: solid 1px;
+    border-color: #D9D9D9;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.lesson_top ul {
+    display: flex;
+    flex-direction:row;
+}
+.lesson_top ul li  { line-height: 120%; margin: 0 auto;width: auto;}
+.lesson_top ul li a:hover {color: pink;}
+
+.lesson_now {
+    padding: 15px 10px;
+    font-weight: bold;
+    border-bottom: solid 1px;
+    border-color: #D9D9D9;
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+
+}
+.lesson_now img {
+    width:3.5%;
+    padding-right: 5px;
+ 
+}
+
+.lesson_content1 {
+    margin-top: 15px;
+    margin-left: 10px;
+    border-bottom: solid 1px;
+    padding-bottom: 20px;
+    line-height: 160%;
+    position: relative;
+}
+.lesson_content2 {
+    margin-top: 15px;
+    margin-left: 10px;
+    border-bottom: solid 1px;
+    padding-bottom: 20px;
+    line-height: 160%;
+    position: relative;
+}
+
+.lesson_list_bd {position: relative; width: 90%; margin: 0 auto ; border-radius: 20px; border: 0.3px solid rgb(199, 199, 199); display: flex;box-shadow: 4px 3px 10px 2px #cecece;}
+.les_img img, .now_class_now{padding: 1rem;}
+.les_img img {width: 80%; height: 80%; object-fit: cover;}
+.les_img,.now_class_now {width: 39%;}
+.now_class_now p:first-child { padding: 0 0 10px 0; font-size: 1.5rem; font-weight: bold;}
+
+.lesson_list_bd {position: relative; width: 90%; margin: 0 auto ; border-radius: 20px; border: 0.3px solid rgb(199, 199, 199); display: flex;box-shadow: 4px 3px 10px 2px #cecece;}
+.les_img img, .now_class_now{padding: 1.3rem;}
+.les_img,.now_class_now {width: 39%;}
+.now_class_now p:first-child { padding: 0 0 10px 0; font-size: 1.5rem; font-weight: bold;}
+
+/*.now_class_now p, .les_list_tag {padding: 10px 0;}*/
+.now_class_now { margin: auto 0; width: auto; font-size: 1.2rem;}
+/*.les_list_btn {margin: 20px 0; }*/
+/*.les_list_btn a{transition: all 0.5ms; font-weight: bold; margin: 1rem 0 0 0; background: #AAAAAA; border: none; color: #fff; padding: 0.7rem 1rem; border-radius: 20px; font-size: 1rem;}
+*/
+
+.now_class_now a:hover {background: #ff65a7;}
+
+
+
+@media screen and (max-width: 375px) {
+
+    .les_img img {
+        height: 120px;
+        width: 110px;
+    }
+    .les_img img, .now_class_now {
+     padding: 1rem;
+    }
+
+    #les_cont_now{
+        margin-bottom:40px;
+    }
+
+    #les_list_btn_now {
+
+        position: absolute;
+        bottom:0px;
+        margin: 20px 0;
+
+    }
+
+}

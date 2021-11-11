@@ -1,0 +1,62 @@
+
+.alt-header{
+    /*padding:var(--horizontal-space);*/
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;  /*컨테이너 가운데 배치*/
+    justify-content: center; /*수평방향 정렬*/
+}
+.logo {
+    /* width: 12rem;
+    margin: 0 auto;
+    font-weight: 600; */
+    margin: 0 auto;
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home {
+    width: 2.3em;
+}
+
+/* .customIcon:before {content: '';position: absolute;top: 12px;left: 3px;background-size: 20px auto;background-repeat: no-repeat;width: 20px; height: 20px;}
+
+.addUser {background-image: url(ic);} 
+*/
+
+.alt-header__title{
+    font-size: 28px;
+    font-weight: 600;
+    
+}
+
+.alt-header__column:first-child{ /*요소 1번째*/
+    margin-left: 20px;
+}
+
+.alt-header__column:nth-child(2){ /*짝수*/
+    text-align: center;
+    
+}
+
+.alt-header__column:last-child{ /*마지막 요소*/
+    margin-left:auto ;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.alt-header__column span:last-child{
+    margin-left:20px;
+}
+
+.alt-header__column{
+    width:33%;
+}
+.close_btn {
+    float: right;
+    clear: both;
+    margin: 20px 20px 20px 0px;
+}
+

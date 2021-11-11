@@ -1,0 +1,172 @@
+.mentorpf_top {
+    width: auto;
+    border: solid 1px;
+    border-color: #D9D9D9;
+    border-left: none;
+    border-right: none;
+    margin-top: 10px;
+    padding: 12px;
+}
+
+.mentorpf_top ul {
+    display: flex;
+    flex-direction:row;
+}
+.mentorpf_top ul li  { line-height: 120%; margin: 0 auto;width: auto;}
+.mentorpf_top ul li a:hover {color: pink;}
+
+.mentor_p_group1{background-color: pink; align-items: center;position: relative; padding: 1rem; border-radius:5%; margin-top:3%;}
+.mentor_p_main_img img{width: 150px; height: 150px; display:block; margin:auto; border-radius: 50%; object-fit: cover; margin-top:3%;}
+.nickname_area{font-size: 40px; text-align: center; font-weight: 700; margin-top:3%;}
+.pf_major{font-size: 20px; padding-top: 30px; text-align:left; margin-left: 3%;}
+.pf_add{font-size: 20px; padding-top: 15px; text-align:left; margin-left: 3%;}
+.pf_between{font-size: 20px; padding-top: 15px; text-align:left; margin-left: 3%;}
+.pf_career{font-size: 20px; padding-top: 15px; text-align:left; margin-left: 3%;}
+.pf_student_card{border: 1px solid; margin-top: 20px; border-radius: 10px;}
+.pf_career_card{border: 1px solid; margin-top: 20px; border-radius: 10px;}
+.pf_group1{text-align: center; font-weight: bold;margin-bottom: 70px;}
+
+/*.pf_major{font-size: 25px; background-color: pink; border-radius: 10px; border: 1px solid; padding: 18px 5px;}*/
+/*.pf_add{font-size: 25px; background-color: pink; border-radius: 10px; border: 1px solid; padding: 18px 5px;margin-top: 10px;}*/
+/*.pf_between{font-size: 25px; background-color: pink; border-radius: 10px; border: 1px solid; padding: 18px 5px;margin-top: 10px;}*/
+/*.pf_career{font-size: 25px; background-color: pink; border-radius: 10px; border: 1px solid; padding: 18px 5px;margin-top: 10px;}*/
+.pf_msgicon{ font-size: 60px;position: absolute; right: 4%;bottom: 10%;}
+
+
+.pf_card img {
+    width: 333px;
+    height: 240px;
+    margin: 0;
+
+}
+
+/*width: 300px;height: 180px; margin:20px 10px 20px 30px;*/
+.pf_card img{ border-width: 6px;border-color: dimgray;object-fit: cover;
+width: 400px;
+    margin-right: 190px;
+    margin-left: 160px;}
+.pf_licen img{width:600px;height: 800px; margin:20px 10px 20px 30px; border-width: 6px;border-color: dimgray;object-fit: cover;}
+/*.pf_card {border: 1px solid; margin-top: 30px; border-radius: 10px; display: flex;justify-content: flex-start; align-items: center;}*/
+.pf_card {margin-top: 30px; padding: 20px; display: flex;justify-content: flex-start; align-items: center; }
+
+.pf_license_area{margin-top: 20px; padding: 20px;}
+/*mentorpf_write*/
+.mtb_1_r {margin: 0.5rem 0;}
+.ft_bd {font-weight: bold;}
+.mepf_sort {margin: 25px 14px;}
+.mepf_sort label, .mepf_sort p, .mepf_sort_cer p {font-size: 1.3rem; font-weight: bold; display: block; margin: 20px 0;}
+.mepf_sort input[type="text"] {width: 95%; padding: 13px; border-radius: 5px; border: 1px solid #777; font-size: 1rem;}
+
+.mentor_img_sort {display: flex; align-items: center; justify-content: center; flex-direction: column;}
+.mentor_img_sort img {width: 333px;height: 240px;object-fit: cover;}
+/*.me_cer_img img {width: 240px;height: 240px;object-fit: cover;}*/
+.me_cer_img { position: absolute; transition: all 0.8s; opacity: 0}
+
+.me_cer_img.current {
+    /*z-index: 5;*/
+    opacity: 1;
+}
+
+.prev_btn, .next_btn {
+    position: absolute;
+}
+
+.prev_btn {
+    left: 22%;
+}
+.prev_btn i, .next_btn i {font-size: 4rem; color: #222;}
+.next_btn {
+    right: 22%;
+}
+
+.pf_card {display: block;}
+
+.me_write_btn button {
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    display: block;
+    background: #ff65a7;
+    margin: 5rem auto 0 auto;
+    width: 40%;
+    padding: 19px;
+}
+/*.me_cer_img {display: flex;*/
+/*    flex-wrap: wrap;}*/
+/*.me_cer_img img{flex: 1 1 40%;}*/
+
+#student_card { font-size: 1.3rem;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 20px; }
+
+.mepf_sort label {font-size: 1.3rem; font-weight: bold; display: block; margin: 20px 0;}
+.mepf_sort input[type="text"] {width: 100%; padding: 13px 0;border-radius: 5px; border: 1px solid #777; font-size: 1rem;}
+
+
+@media screen and (max-width: 375px) {
+    #mWrite_cer {
+        margin-left: 20px;
+    }
+
+
+    .mepf_sort_cer p {
+        margin-left: 20px;
+    }
+    .me_cer_img img {width: 240px;height: 240px;object-fit: cover;}
+
+    .fa-comment-dots {
+        FONT-SIZE: 44px;
+
+
+    }
+
+    .pf_msgicon {
+
+        right: 5%;
+        bottom: 5%;
+    }
+
+
+    .prev_btn {
+        left: 6%;
+    }
+
+    .next_btn {
+        right: 6%;
+    }
+
+}
+
+
+@media screen and (max-width: 375px) and (min-width: 360px) {
+
+    .pf_card img{
+        margin-right: 0px;
+        margin-left: 0px;
+
+        width:333px;
+
+    }
+
+
+}
+
+
+@media screen and (max-width: 360px){
+
+    .pf_card img{
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 100%;}
+
+
+
+
+}
+
+
+
+

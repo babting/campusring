@@ -1,0 +1,41 @@
+.menu_hd_box {width:100%;max-width:750px;margin:0 auto;position:relative;z-index:1;}
+.menu_hd_box:after {display:block;content:"";clear:both;}
+.menu_hd_box .menu_btn_prev {float: right; width:50px;}
+.menu_hd_box .menu_text {font-size: 25px; width: calc(100% - 100px);text-align: center;display:inline-block;margin:0 auto;}
+.menu_hd_box .menu_text {position:absolute;left:0;top:50%;transform: translate(0, -50%);}
+.menu_btn_prev{position: absolute ; right: 0; top:50%;transform: translate(0, -50%);}
+
+.menu_logo {width: 35%;position: absolute;}
+.menu_bar ul {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #ff65a7;
+    color: #fff;
+}
+.menu_text {padding: 20px;}
+.menu_bar ul li {padding: 22px;font-size: 20px; color: #fff;}
+.menu_name {font-size: 25px; font-weight: bold; line-height: 160%; margin: 30px 0 20px 0;}
+.menu_info p {font-size: 17px;}
+.menu_info {border-top: 1px solid #D9d9d9; border-bottom: 1px solid #d9d9d9; padding: 20px; line-height: 160%;}
+
+.my_class_align, .my_chocoring, .my_review { display: flex; align-items: center; justify-content: space-between; border-bottom: 1px solid #d9d9d9; font-size: 17px; padding-left: 15px;}
+.my_class_align span, .my_chocoring span, .my_review span { padding-right: 8px;}
+.my_class_align span i, .my_chocoring span i, .my_review span i { color: #555;}
+
+
+.my_class {margin-top: 30px;}
+.class_icon { padding-left: 20px;}
+.my_class_align {margin-top: 20px;}
+.my_class_align {padding-bottom: 30px;}
+.my_chocoring, .my_review {padding: 30px 0 30px 20px;}
+
+
+/*아이폰 6/7/8*/
+@media screen and (max-width: 375px){
+    .menu__text img{
+        width: 45%;
+        margin: 5px 0 0 20px;
+    }
+}

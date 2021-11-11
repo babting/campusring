@@ -1,0 +1,51 @@
+.hd_box {display: block;font-size: 20px;}
+.login_text {font-weight: bold;}
+.container .find_btn button {
+    font-size: 20px;
+    background-color: #ff65a7;
+    color: #ffff;
+    padding: 15px;
+    width: 42%;
+    margin: auto;
+    border-radius: 10px;
+    outline: 0;
+    display: block;
+}
+
+.phone button {
+    border-radius: 10px;
+    background-color: #ff65a7;
+    border: none;
+    color: #fff;
+    padding: 13px;
+    float: right;
+    /*float 는 정렬같은 느낌 left right  float를 쓰면 무조건 clear: both =
+        이것만 쓰고 다음부터는 안쓴다는 의미*/
+    clear: both;
+    text-align: center;
+    margin: -33px -10px 0 0px;
+}
+
+.success button {
+    border-radius: 10px;
+    background-color: #ff65a7;
+    border: none;
+    color: #fff;
+    padding: 13px 25px 13px 25px;
+    float: right;
+    /*float 는 정렬같은 느낌 left right  float를 쓰면 무조건 clear: both =
+        이것만 쓰고 다음부터는 안쓴다는 의미*/
+    clear: both;
+    text-align: center;
+    margin: -75.5px 35px 0 0px;
+    /* 상 우 하 좌 */
+}
+
+
+@media screen and (max-width: 375px) {
+    .container .find_btn button {
+        padding: 13px;
+        width: auto;
+        margin: auto;
+    }
+}

@@ -1,0 +1,18 @@
+.list_sort {position: relative; border: 1px solid rgb(216, 216, 216);  margin: 1rem; border-radius: 10px;}
+.list_content {display: inline-flex; align-items: center; padding: 1.5rem 2rem;}
+.chat_icon {border-radius: 43%; position: relative; display: inline-flex;background-color: rgb(216, 216, 216); width: 50px; padding: 0.9rem; overflow: hidden; margin: 0.1rem;}
+.chat_icon i { margin: 0 auto; color: #fff;}
+.chat_cont {display: block; padding: 0 1.1rem;}
+.chat_cont p {padding: 0.3rem 0;}
+.chat_cont p:first-child {font-size: 1.5rem; font-weight: bold;}
+.chat_cont p:last-child {width: 100%; font-size: 1.4rem;}
+.list__cont_time {display: flex; flex-direction: column;}
+.list__cont_time input[type="time"] {border: none; position: absolute; right: 0; top: 30%; margin: 0 0rem;}
+.el_rg {position: absolute; right: 0; margin:  0 2.4rem;}
+input[type="time"]::-webkit-calendar-picker-indicator {background: none;}
+
+/*아이폰 6/7/8 */
+@media screen and (max-width: 375px){
+    .list__cont_time input[type="time"] {background: none;}
+    .chat_cont p:last-child,.chat_cont p:first-child {font-size: 1rem;}
+}

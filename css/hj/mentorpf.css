@@ -1,0 +1,35 @@
+@charset "EUC-KR";
+
+*{
+    margin:0;
+    padding:0;
+}
+.tab_wrapper{
+    margin : 20px;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+.tab{
+    background : #898989;
+    color : #fff;
+    padding : 10px;
+    margin-right: 2px;
+    cursor: pointer;
+}
+.tab.current{
+    background-color: #e0e0e0;
+    color : #000;
+}
+.tab_container{
+    background-color: #e0e0e0;
+}
+.tab_content{
+
+    display: none;
+    padding : 10px;
+}
+.tab_content.current{
+    display: block;
+}

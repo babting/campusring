@@ -1,0 +1,19 @@
+.review_my_sort {width: auto;border: solid 1px;border-color: #D9D9D9;border-left: none;border-right: none;margin: 10px 0 20px 0;padding: 12px;}
+.review_my_sort ul {display: flex;flex-direction: row;}
+.review_my_sort ul li {line-height: 120%;padding: 10px 15px 10px 10px;}
+.review_my_sort ul li :hover { color: pink;}
+
+/* icon */
+.my_user1 {align-items: center;display: flex;justify-content: center;width: 70px;height: 70px;overflow: hidden;border-radius: 90px;background: #d9d9d9; ;background-color: gray;}
+.my_user1_icon i { width: 100%;height: 100%;object-fit: cover;}
+
+.review_my_page {display: flex; align-items: center;}
+
+.review_my_name{text-align: left;}
+.review_my_star_count{color: orange;}
+.review_my_date{color: black;}
+.review_my_group{display: flex; flex-direction: column; margin-left: 10px;}
+
+.review_my_content{border: .5px solid}
+
+.review_my_btn{margin-top: 10px; float: right;}

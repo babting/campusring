@@ -1,0 +1,56 @@
+.sign_container {width:100%;max-width:750px;margin: 0 auto; position:relative;z-index:1;}
+.hd_box {width:100%;max-width:750px;margin:0 auto;text-align:center;position:relative;z-index:1;}
+.hd_box:after {display:block;content:"";clear:both;}
+.hd_box .btn_prev {float:left;width:50px;}
+.hd_box .login_text {font-size: 25px; width: calc(100% - 100px);text-align: center;display:inline-block;margin:0 auto;}
+.hd_box .login_text {position:absolute;left:50%;top:50%;transform: translate(-50%, -50%);}
+/*.hd_box .login_text {line-height:1em;padding:0.50;}*/
+.signup_sort input, .signup_sort select {
+    font-size: 16px;
+}
+.signup_sort label {
+    display: block;
+    font-size: 18px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    
+}
+
+
+
+.signup_sort input[type="text"], .signup_sort input[type="password"] {
+    padding: 12px; width: 93%; border-radius: 5px; border: 0.3px solid #777;
+}
+.signup_sort {
+    margin: 0 auto;
+    padding: 0 20px 0 20px;
+
+
+}
+.campus_position {
+    display: flex;
+}
+.campus input[type="text"] {
+    width: 80%; margin-right: 5px; 
+}
+.campus input[type="submit"] {
+    padding: 12px;border-radius: 5px;border: none; background: #ff65a7;color: #fff;font-size: 15px;
+
+}
+.date input[type="text"] {
+    width: 8%
+}
+.date select, .phone_num select {
+    width: auto; padding: 12px; border-radius: 5px; border: 0.3px solid #777; color: #777;
+}
+.phone_num input[type="text"] {
+    width: 36%;
+}
+.category select {
+    padding: 12px; width: 98%; border-radius: 5px; border: 0.3px solid #777;
+}
+.signup_btn  {
+    width: 100%; margin: 30px 0 20px 0; padding: 15px; border-radius: 5px; border: none;background: #ff65a7;color: #fff;font-size: 20px;
+}
+
+

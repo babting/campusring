@@ -1,0 +1,57 @@
+/*qna1to1.html css*/
+.qna_mg {margin: 1rem 1.2rem;}
+.qna_id {margin: 2rem 0 1.2rem 0;}
+.qna_id,.qna_contents {display: flex;flex-direction: column;}
+.qna_id p:first-child {margin-bottom: 0.5rem; padding-right: 0.5rem; font-weight: bold; font-size: 1.3rem;}
+.qna_id p:last-child {padding: 12px; width: 96.5%; border-radius: 4px; border: 0.3px solid #777;font-size: 1.1rem}
+.qna_con_sort p {font-size: 1.3rem; font-weight: bold; margin-bottom: 0.5rem;}
+.qna_contents input, .qna_contents textarea {padding: 12px; width: 96.5%; border-radius: 4px; border: 0.3px solid #777;font-size: 1.1rem;}
+.qna_contents input {margin: 0 0 10px 0;}
+
+.qna_btn {display: flex; justify-content: center; margin: 2rem;}
+.qna_btn button {font-weight: bold; width: 35%; padding: 1rem; margin: 0 1rem; font-size: 1.4rem; box-sizing: border-box; background: #ff65a7; border: none; color: #fff;}
+.qna_btn button:first-child {border: 1px solid #ff65a7; background: none; color: #000;}
+
+/*qna_list.html css*/
+.qna_list_sort {margin: 1.3rem 1.2rem;}
+.qna_ask_bor {margin-top: 3rem; padding: 0.7rem 0; border-collapse: collapse; border-top: 0.3px solid #777;border-bottom: 0.3px solid #777;}
+.qna_asko_bor {padding: 0.7rem 0; border-bottom: 0.3px solid #777;}
+.ask_sort { padding-top: 1rem; display: flex; align-items: center; margin-bottom: 0.5rem;}
+.qna_one {background: #ff65a7; width: 2.5%; padding: 0.7rem; vertical-align: middle; text-align: center; color: #fff; border-radius: 50%; font-size: 1.1rem; font-weight: bold; }
+.ask_sort p {color: #4DADE6; font-size: 1.5rem;padding-left: 0.8rem; }
+.con_print p {margin-bottom: 0.5rem;}
+.con_print {margin: 0.2rem 0 1rem 3.5rem; font-size: 1.3rem;}
+/* .qna_send_btn button {
+    margin-top: 50px; background: #ff65a7;border: none; color: #fff; position:fixed;bottom:0;width: 750px;padding:20px 20px;box-sizing:border-box;font-size: 1.5rem; font-weight: bold;
+} */
+
+
+/**
+* 작업자 박준경 start
+*/
+.fix-test {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #ff65a7;
+    color: #fff;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(121, 121, 121, 0.3);
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+/**
+* 작업자 박준경 end
+*/
+@media screen and (max-width: 375px){
+    .qna_mg {margin: 0;}
+    .qna_btn button {font-size: 1.1rem; width: 40%;}
+    .qna_contents input, .qna_contents textarea {width: auto;}
+    .qna_con_sort {margin: 0 10px;}
+    .qna_con_sort p {margin: 20px 0 16px 0;}
+    .con_print {font-size: 1rem; margin: 0.2rem 0 1rem 3.2rem;}
+    .ask_sort p {font-weight: bold;font-size: 1.2rem;}
+    .qna_one {width: 5%;}
+}

@@ -1,0 +1,7 @@
+.review_date{margin-top:10px;}
+.review_use{display: flex; align-items: center; justify-content: space-between; margin-bottom: 10px;}
+.content_all{margin-top: 10px;}
+.revie_head_right{font-size: 15px; font-weight: bold}
+.review_my_content1 p{padding:3px;}
+.my_btn{transition-duration: 0.4s;}
+.my_btn:hover{background: #FFD0E4;color: black;}

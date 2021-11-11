@@ -1,0 +1,81 @@
+/*프로필편집 사진부분*/
+.main_profile_sort {align-items: center;display: flex;justify-content: center;}
+.main_profile {width:150px;height: 150px;overflow: hidden;border-radius: 90px;background: #d9d9d9;}
+.main_profile img { width: 100%;height: 100%;object-fit: cover;}
+
+/* 이름 */
+.pro_name{font-size: 20px; margin-top: 10px; font-weight: bold;margin-bottom: 13px;margin-top: 13px;}
+.pro_password{font-size: 200px;}
+.pro_ansucheol{font-size: 20px; margin: 10px 0 20px 10px; padding: 3px 10px 0 10px;}
+.profile_inf_choice{margin-left:10px;}
+
+
+.profile_email{margin: 10px 0 5px 0;}
+.profile_email input{width: 100%; padding: 10px; font-size: 17px;margin-bottom: 20px;}
+
+/*비밀번호 인증 */
+.dpt_op{margin: 10px 0 10px 0; border: #ff65a7}
+.dpt_op input[type="text"] {width:68%; margin-right: 5px; padding: 12px; border-radius: 5px; border: 0.3px solid #777; color: #777 }
+.dpt_op input[type="button"] {padding: 12px 20px;border-radius: 5px;border: none; background: #ff65a7;color: #fff;font-size: 15px;width: auto;}
+.dpt_op pro_password{font-size: 150px;}
+.pc_password{font-size: 20px;}
+.pro_change label{}
+
+
+.dpt_op .pro_confirm{width: 80%; padding: 10px; margin-top: 10px; border-radius: 5px; border: none; solid :#ff65a7;color: #fff;font-size: 20px;}
+.department select, .profile_category select{width: 100%; padding: 8px; font-size: 17px;margin-bottom: 15px}
+
+/*이메일*/
+.profile_pw_sort input[type="text"] {width: 85%;padding: 10px; margin-right: 10px;font-size: 17px;}
+.profile_pw_sort input[type="submit"] {width: 10%;padding: 10px;font-size: 17px;background: #ff65a7;color: #fff;border: none; border-radius: 5px;}
+
+/*인증 후 이메일*/
+.profile_email_sort input[type="text"]{width:80%;padding: 10px; margin-right: 10px;font-size: 17px;}
+.profile_email_sort input[type="submit"] {width: 10%;padding: 10px;font-size: 17px;background: #ff65a7;color: #fff;border: none; border-radius: 5px;}
+
+/*인증 후 비밀번호 */
+.pw_check input[type="text"]{width:80%;padding: 10px; margin-right: 10px;font-size: 17px;}
+.profile_pw_change{margin: 10px 0 10px 0;}
+.pw_check1{margin-top: 10px;}
+.pw_check1 input[type="text"]{width:80%;padding: 10px; margin-right: 10px;font-size: 17px;}
+
+/*인증 후 카테고리 설정 */
+.pc_cate{margin-top: 10px;}
+/*인증 후 1순위 */
+.pc_cate1 select{width:83%;padding: 10px; margin-right: 10px;font-size: 17px;margin-top: 10px;margin-bottom: 10px;}
+.pc_cate2 select{width:83%;padding: 10px; margin-right: 10px;font-size: 17px;margin-top: 10px;margin-bottom: 10px;}
+.pc_cate3 select{width:83%;padding: 10px; margin-right: 10px;font-size: 17px;margin-top: 10px;margin-bottom: 10px;}
+
+.profile_inf_choice label{display: inline-block;padding: .5em .75em;color: #999;font-size: inherit;line-height: normal;vertical-align: middle;background-color: #fdfdfd;cursor: pointer;border: 1px solid #ebebeb;border-bottom-color: #e2e2e2;border-radius: .25em;}
+.profile_inf_choice input[type="file"] {position: absolute;width: 1px;height: 1px;padding: 0;margin: -1px;overflow: hidden;clip:rect(0,0,0,0);border: 0;}
+
+
+/*카테고리 우선순위*/
+.cate_op {margin-bottom: 10px;}
+.profile_category label {display: block;margin-bottom: 5px;}
+
+/*수정하기 버튼*/
+.profile_btn {margin-top: 10px;}
+.profile_btn button {margin:3px;display:block; width: 18%; padding: 10px; border-radius: 5px; border:0.5px;background:#ff65a7;;font-size: 17px;color: #fff;}
+
+/*아이폰 6/7/8 */
+@media screen and (max-width: 375px){
+    .profile_email_sort input[type="text"] {width: 65%;padding: 10px; margin-right: 10px;font-size: 17px;}
+    .profile_email_sort input[type="submit"] {width: 22%;padding: 10px;font-size: 17px;background: #ff65a7;color: #fff;border: none; border-radius: 5px;}
+    .department select, .profile_category select{width: 95%; padding: 8px; font-size: 17px;margin-bottom: 15px}
+    .pw_check input[type="text"], .pw_check1 input[type="text"]{width: 92%;}
+    .pc_cate1 select,.pc_cate2 select,.pc_cate3 select{width: 99%;}
+    .profile_btn{margin-bottom: 15px;}
+    .profile_btn button{width: 45%; width: 45%;display: block;margin: 0 auto;}
+    .profile_final_form{margin: 0 15px;}
+    .profile_inf_choice{}
+    .profile_inf_choice label{display: inline-block; padding: .5em .75em; color: #999; font-size: inherit; line-height: normal; vertical-align: middle; background-color: #fdfdfd; cursor: pointer; border: 1px solid #ebebeb; border-bottom-color: #e2e2e2; border-radius: .25em;
+    .profile_inf_choice input[type="file"] { /* 파일 필드 숨기기 */ position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip:rect(0,0,0,0); border: 0; }
+    .pro_name{font-size: 20px; margin-top: 10px; font-weight: bold;margin-bottom: 13px;margin-top: 13px;}
+    .profile_inf_choice{margin-left:10px;}
+    .dpt_op input[type="text"] {width:68%;}
+
+    /*.main_profile{}*/
+
+}
+

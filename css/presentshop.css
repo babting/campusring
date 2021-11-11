@@ -1,0 +1,16 @@
+.presentshop_title{text-align: center; margin: 40px 0; font-size: 30px;font-weight: bold;}
+.presentshop_count {padding: 15px 10px;font-weight: bold;border-bottom: solid 1px;border-color: #D9D9D9;background-color: #eee;display: flex;align-items: center;justify-content: flex-end;}
+.presentshop_count img {width:3.5%;padding-right: 5px;}
+.presentshop_my_ring {color: pink;padding-left: 10px;}
+.present_coffee {position: relative;border: 1px solid #d9d9d9;padding: 15px;display: flex;align-items: center;margin-top: 20px;border-radius: 10px;}.present_coffee1 p {padding: 1.2rem 0;}
+.present_coffee img{width: 100px;height: 100px; margin-top: 20px; margin-bottom: 20px; margin-right: 15px; }
+.presen_chprice{display: flex;align-items: center;}
+.presen_chprice img{width: 10%;height: 10%; margin-right: 10px; }
+.present_coffee1 p{margin-bottom:-10%;}
+.pre_ch_count{}
+.present_coffee1 .pre_menu1{font-size: 23px; font-weight: bold;}
+.presen_chprice{}
+.final_span{margin: 0 15px;}
+.prsh_poab {position: absolute; top: 44%; right: 5%;}
+
+.presen_chprice>div{font-size: 21px;}

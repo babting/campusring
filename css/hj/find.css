@@ -1,0 +1,44 @@
+.search {
+    background: #F4F4F4;
+    padding: 20px;
+    display: flex;
+
+
+}
+
+.search input[type="text"] {
+    padding: 15px;
+    margin-right: 10px;
+    width: 83%;
+    font-size: 1.2em;
+    border: 0.3px solid #777;
+}
+.search input[type="submit"] {
+    width: auto;
+    padding: 15px 20px;
+    color: #fff;
+    background: #444;
+    font-size: 1.2em;
+    border: none;
+}
+.popularity_find p {
+    margin: 40px auto 10px 20px;
+    font-size: 1.2em;
+}
+.popularity_find {
+    padding-bottom: 10px;
+    border-bottom: 0.3px solid #777;
+    margin-bottom: 30px;
+}
+.popularity_page {
+    margin-left: 30px;
+}
+.popularity_page input[type="submit"] {
+    background: #fff;
+    width: auto;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 15px 30px;
+    margin: 12px;
+    border: 2px solid #FFD0E4;
+}
